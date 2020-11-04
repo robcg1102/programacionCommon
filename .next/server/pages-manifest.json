@@ -1,0 +1,12 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/characters": "pages/characters.js",
+  "/search": "pages/search.js",
+  "/characters/[id]": "pages/characters/[id].js",
+  "/locations": "pages/locations.js",
+  "/episodes": "pages/episodes.js",
+  "/episodes/[id]": "pages/episodes/[id].js"
+}

@@ -1,0 +1,39 @@
+.contentCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contentCenter{
+   display: flex;
+   justify-content: center;
+}
+
+a img{
+    width: 45px;
+}
+
+a:hover{
+    transform: scale(1.1);
+}
+
+.homeContent{
+    margin: 0 0 85px 0;
+}
+.myCardStyle img{
+    height: 310px;
+}
+
+.myCardStyle:hover{
+    transform: scale(1.05);
+}
+.myStyleCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.myStyleCard a{
+    width: 60%;
+}
