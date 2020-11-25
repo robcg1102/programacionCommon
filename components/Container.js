@@ -23,7 +23,7 @@ const Container = (props) => (
     <Navigation />
 
     <div className="container p-4">{props.children}</div>
-    <footer className="footer p-3 bg-dark text-white">robcg1102</footer>
+    <footer className="footer p-3 bg-dark text-white"><a href="https://robcg1102.netlify.app" target="_blank">robcg1102</a></footer>
   </div>
 );
 
