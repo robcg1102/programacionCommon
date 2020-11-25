@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "export": "next export",
+    "deploy": "npm run build && npm run export",
+    "start": "next start"
   },
   "keywords": [],
   "author": "Rob <robcg1102@gmail.com>",

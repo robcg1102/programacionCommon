@@ -15,12 +15,15 @@ const Container = (props) => (
         href="https://res.cloudinary.com/robcg1102/image/upload/v1604468774/maq_img/rickMorty_u5tbyz.png"
         type="image/x-icon"
       />
+
+      <meta name="description" content="Rick & Morty" />
+
       <title>{props.title}</title>
     </Head>
     <Navigation />
 
     <div className="container p-4">{props.children}</div>
-    <footer class="footer p-3 bg-dark text-white">robcg1102</footer>
+    <footer className="footer p-3 bg-dark text-white">robcg1102</footer>
   </div>
 );
 
